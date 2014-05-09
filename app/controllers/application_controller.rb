@@ -5,4 +5,14 @@ class ApplicationController < ActionController::Base
 
   def home
   end
+
+  def teams
+  end
+  
+  def guests
+  end
+  
+  def gallery
+  end
+
 end
