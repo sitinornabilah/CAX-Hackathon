@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
+ <head>
   <title>CAXHackathon | <%= @title %> </title>
+  <link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato|Oswald' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+  </head>
+ <body>
+  <header>
+	<div class="header-image">
+		<h1> Header</h1>
+	</div>
+       
+  </header>
+<div class="main">
+	<div class="content">
+ 		<%= yield %>
+	</div>
+</div>
+ </body>
 </html>
