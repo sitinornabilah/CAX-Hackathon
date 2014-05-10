@@ -1,0 +1,73 @@
+body
+{
+	background-image: url("BG.jpg")
+}
+
+
+img
+{
+	width:400px;
+	height:auto;
+	margin :left;
+}
+
+.head
+{
+	background-color : 900000;
+	border : 0.5px solid white;
+	height : 70px;
+	width : auto;
+}
+
+.head h4
+{
+	font-size : 30px;
+	font-family : Arial;
+	float : center;
+	padding : 20px;
+	color : #fff;
+}
+
+.middle
+{
+	height:615px;
+	width:100%;
+	border:1px solid #2c3e50;
+	display:inline-block;
+	background-color : transparent;
+}
+
+.poster
+{
+	padding:5px;
+	height:100px;
+	width:auto;
+	float:left;
+	display:inline-block;
+}
+
+.description
+{
+	padding:55px;
+	height:230px;
+	width:auto;
+	float:right;
+	border-left:1px;
+	display:inline-block;
+	color : #fff;
+	text-align : center;
+}
+
+.quote
+{
+	background-color : E41D1D;
+	color : #fff;
+}
+
+.description h2
+{
+	font-family : Arial;
+	font-size : 30px;
+	background-color : E41D1D;
+	color : #fff;
+}

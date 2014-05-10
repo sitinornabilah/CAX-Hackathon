@@ -22,10 +22,22 @@
 				</div>
 			</div>
 		</header>
-		<div class="header-content">
-			<h1>LATEST</h1>
-		</div> 
 
+		<div class="header-content">
+			<div class="title">
+				<h1>LATEST</h1>
+			</div>
+			<div id="one">
+				<p>hello</p>
+			</div>
+			<div id="small">
+		 		<div class="small">haiiii</div>
+				<div class="small">baiii</div>
+				<div class="small">taaa</div>
+				<div class="small">baaa</div>	
+			</div>
+		</div>
+		
 		<!-- below is the nav bar and second page -->
  		<nav id="navbar">
 			<ul>
@@ -33,7 +45,7 @@
 		    		<a href="#"> Home </a>
         		</li>
 				<li> 
-		    		<a href="#"> Club </a>
+		    		<a href="/post"> Club </a>
         		</li>
 				<li> 
 		    		<a href="#"> Associations</a>
@@ -46,10 +58,11 @@
         		</li>
      		</ul>
  		</nav>
+
 		<div class="main">
 			<div class="content">
  				<%= yield %>
 			</div>
-		</div>
+		</div> 
  	</body>
 </html>

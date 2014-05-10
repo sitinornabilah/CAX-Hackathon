@@ -1,21 +1,6 @@
-/*.pagetitle{
-	width:100%;
-	text-align:center;
-	h1{
-		display:inline-block;
-		color:#434343;
-		font-weight: 700;
-		font-family:'Oswald', sans-serif;
-		font-size: 60px;
-		line-height:100px;
-
-	}*/
-/*}*/
-
 .body-content{
 	width:100%;
 	height:750px;
-	border:1px solid black;
 }
 #box{
 	border:1px solid #2c3e50;
@@ -40,32 +25,32 @@
 }
 .box-poster{
 	height:240px;
-	width:380px;
+	width:400px;
 	border:1px solid #2c3e50;
 	float:left;
 }
 
 img{
-	width:380px;
+	width:400px;
 }
 
 .box-description{
 	padding:9px;
 	height:240px;
-	width:400px;
+	width:380px;
 	float:left;
 	border-left:1px;
 }
 .pagination{
-	ul{ 
-			height: 100px; 
+	ul{ 	
+			height: 10px; 
 			list-style: none; 
 			text-align: center; 
 			padding: 0; 
 			margin: 0; 
 				li{ 
 					border-right: 1px solid #777; 
-					line-height: 40px; 
+					line-height: 20px; 
 					display: inline; 
 					padding : 0 5px; 
 						a{ 
