@@ -1,25 +1,55 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <title>CAXHackathon | <%= @title %> </title>
-  <link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Lato|Oswald' rel='stylesheet' type='text/css'>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-  </head>
- <body>
-  <header>
-	<div class="header-image">
-		<h1> Header</h1>
-	</div>
-       
-  </header>
-<div class="main">
-	<div class="content">
- 		<%= yield %>
-	</div>
-</div>
- </body>
+	<head>
+		<title>CAXHackathon | <%= @title %> </title>
+   			<!-- this is the links for the google fonts used -->
+			<link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+			<link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+  			<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  			<link href='http://fonts.googleapis.com/css?family=Lato|Oswald' rel='stylesheet' type='text/css'>
+  			<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  			<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  			<%= csrf_meta_tags %>
+  	</head>
+
+ 	<body>
+		<header>
+			<div class="header-image">
+				<h1> #BeActive</h1>
+				<div class="submit">
+					<!-- this is the link to submit the event posters/news -->
+					<a href"#"> Submit Your Event! </a>
+				</div>
+			</div>
+		</header>
+		<div class="header-content">
+			<h1>LATEST</h1>
+		</div> 
+
+		<!-- below is the nav bar and second page -->
+ 		<nav id="navbar">
+			<ul>
+				<li> 
+		    		<a href="#"> Home </a>
+        		</li>
+				<li> 
+		    		<a href="#"> Club </a>
+        		</li>
+				<li> 
+		    		<a href="#"> Associations</a>
+        		</li>
+				<li> 
+		    		<a href="#"> Secretariat</a>
+        		</li>
+        		<li>
+        			<a href="#">Faculty</a>
+        		</li>
+     		</ul>
+ 		</nav>
+		<div class="main">
+			<div class="content">
+ 				<%= yield %>
+			</div>
+		</div>
+ 	</body>
 </html>

@@ -2,49 +2,66 @@ body {
   margin: 0px;
 }
 
-header{ 
-	height: 200px; 
-	width: 100%; 
-		.header-image { 
-			height: 100%; 
-			border:1px solid red;
-			width: 100%; 
-				h1 { width: 100%; 
-					 color: #fff; 
-					 font-family: 'Lato', sans-serif; 
-					 text-align: left; 
-					 line-height: 300px; 
-					 font-weight: 400; 
-					 text-shadow: 1px 2px 1px black; 
-				} 
-		} 
-} 
-/*.nav-line{ 
-	height: 40px; 
-	width: 100%; 
-	box-shadow: 0 2px 1px 1px grey; 
-		ul{ 
-			line-height: 40px; 
-			text-align: center; 
-			list-style-type: none; 
-			margin: 0; padding: 0; 
-				.homeborder{ 
-					border-left: 2px solid grey; 
-				} 
-				li{ 
-					border-right: 2px solid grey; 
-					display: inline; padding : 0 120px; 
-						a{ 
-						 	font-family: 'Lato', sans-serif; 
-							font-size: 16px; 
-							font-weight: 300; 
-							color: black; 
-							text-decoration: none; 
-						} 
-				}
-		} 
-}*/ 
-/*nav{ 
+header {
+	display: inline;
+	overflow: hidden;
+	height: 150px;
+}
+
+.header-image {
+	background-image: url("header.jpg");
+	width: 100%;
+	float: left;
+}
+
+header a {
+	text-align: center;
+	font-weight: 200;
+	color: #7f8c8d;
+	font-family: 'Lato',sans-serif;
+	font-size: 30px;
+	color: #2c3e50;
+	text-decoration: none;
+}
+
+header h1 { 
+	width: 30%;
+	margin-left: 40px;
+	margin-top: -1px;
+	font-family: 'Lato',sans-serif;
+	font-size: 80px;
+	font-weight: 500;
+	line-height: 100px;
+	color: #2c3e50;
+	text-shadow: 3px 3px 2px #9E9E9E;
+	margin-bottom: 20px;
+	float: left;
+}
+
+header h4 { 
+	color: black;
+	font-family: 'Lato',sans-serif;
+	text-align: center;
+}
+
+.submit {
+	width: 15%;
+	margin-left: -10px;
+	margin-top: 10px;
+	margin-right: 20px;
+	border-radius: 4px;
+	float: right;
+	background-color: #1abc9c;
+}
+
+.header-content {
+	border:1px solid green;
+	width:100%;
+	height:800px;
+}
+
+nav{
+	width:100%;
 	height: 40px; 
 	-webkit-box-shadow: 1px 2px 1px 1px rgba(0,0,0,0.3); 
 	box-shadow: 1px 2px 1px 1px rgba(0,0,0,0.3); 
@@ -52,12 +69,13 @@ header{
 			height: 100px; 
 			list-style: none; 
 			text-align: center; 
-			padding: 0; margin: 0; 
+			padding: 0; 
+			margin: 0; 
 				li{ 
 					border-right: 1px solid #777; 
 					line-height: 40px; 
 					display: inline; 
-					padding : 0 100px; 
+					padding : 0 50px; 
 						a{ 
 							color: #777; 
 							font-family: 'Lato', sans-serif; 
@@ -79,7 +97,7 @@ header{
 						} 
 				}
 		} 
-}*/
+}
 
 /*.main{
 	border:1px solid red;
