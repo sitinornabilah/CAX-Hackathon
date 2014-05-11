@@ -4,9 +4,7 @@ body {
 
 /* HEADER CSS */
 header {
-	display: inline;
-	overflow: hidden;
-	height: 150px;
+	height: 120px;
 }
 
 .header-image {
@@ -15,13 +13,12 @@ header {
 	float: left;
 }
 
-header a {
+.submit a {
 	text-align: center;
 	font-weight: 200;
-	color: #7f8c8d;
 	font-family: 'Lato',sans-serif;
 	font-size: 30px;
-	color: #2c3e50;
+	font-color: #000;
 	text-decoration: none;
 }
 
@@ -46,24 +43,37 @@ header h4 {
 }
 
 .submit {
-	width: 15%;
+	width: 150px;
 	margin-left: -10px;
 	margin-top: 10px;
 	margin-right: 20px;
 	border-radius: 4px;
 	float: right;
 	background-color: #1abc9c;
+	border: 3px solid black;
 }
 
 .header-content {
-	border:1px solid green;
+	border:1px solid black;
 	width:100%;
-	height:700px;
+	height:600px;
+}
+
+.header-image img {
+	width: 200px;
+	height: 100px;
+	margin-left: 100px;
+	margin-top: 10px;
 }
 
 /* END OF HEADER CSS */
 
 /* HEADER-CONTENT CSS */
+
+.header-content img {
+	width: 100%;
+	height: 100%;
+}
 
 .header-content div {
 	display: inline;
@@ -87,23 +97,23 @@ header h4 {
 }
 
 .small { 
-	width: 300px;
-	height: 200px;
+	width: 200px;
+	height: 166px;
     display: inline-block; 
     margin-top: 10px;
 	margin-right: 10px;
 	margin-bottom: 2px;
 	float: right;
-	background-color: red;
+	background-color: #1abc9c;
 	border: 1px solid black;
 }
 
 #one {
 	width: 40%;
-	height: 415px;
+	height: 350px;
 	margin-top: 10px;
 	margin-left: 30px;
-	background-color: #1abc9c;
+	background-color: #fff;
 	float: left;
 	border: 1px solid black;
 }
@@ -114,6 +124,11 @@ header h4 {
 	padding:0;
 	margin-bottom: 55px;
 	display: inline-block;
+}
+
+.header-content div > a:hover {
+	background-color: white;
+	opacity: 0.3;
 }
 
 /* END OF HEADER-CONTENT */
@@ -161,13 +176,11 @@ nav{
 }
 /* END OF NAV-BAR CSS */
 
-
-/*.main{
-	border:1px solid red;
-	margin-top:100px;
+/*MAIN CSS*/
+.main{
+	margin-top:50px;
 	.content{
-		width:960px;
+		width:100%;
 		margin:auto;
-		border:1px solid blue;
 	}
-}*/
+}

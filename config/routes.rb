@@ -1,8 +1,12 @@
 CAXHackathon::Application.routes.draw do
 		root 'application#home'
-                get 'teams' => 'application#teams'
-                get 'guests' => 'application#guests'
-		get 'gallery' => 'application#gallery'
+                get 'post' => 'application#post'
+                get 'club' => 'application#club'
+                get 'association'=> 'application#association'
+                get 'secretariat' => 'application#secretariat' 
+                get 'faculty' => 'application#faculty'
+               
+		         
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

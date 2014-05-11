@@ -7,13 +7,19 @@ class ApplicationController < ActionController::Base
 	@title = "Home"
   end
 
-  def teams
+  def post
   end
   
-  def guests
+  def club
   end
   
-  def gallery
+  def association
+  end
+
+  def secretariat
+  end
+
+  def faculty
   end
 
 end

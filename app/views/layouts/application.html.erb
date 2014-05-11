@@ -14,51 +14,74 @@
 
  	<body>
 		<header>
+			<!--This is the image of the header-->
 			<div class="header-image">
 				<h1> #BeActive</h1>
+				<img src="http://www.utem.edu.my/web2012/image/newlogo/logoUTeMPNG.png"/>
 				<div class="submit">
 					<!-- this is the link to submit the event posters/news -->
-					<a href"#"> Submit Your Event! </a>
+					<a href="#"> Submit Event! </a>
 				</div>
 			</div>
+			<!--header image ends here-->
 		</header>
-
+		<!--The latest posts go here-->
+		<% if current_page? root_path %>
 		<div class="header-content">
 			<div class="title">
 				<h1>LATEST</h1>
 			</div>
 			<div id="one">
-				<p>hello</p>
+				<a href="/post">
+					<img src = "http://upload.wikimedia.org/wikipedia/commons/5/57/Italian_Taekwondo_Championships_2013.jpg" title="Latihan Kelab Taekwondo UTeM" />
+				</a>
 			</div>
 			<div id="small">
-		 		<div class="small">haiiii</div>
-				<div class="small">baiii</div>
-				<div class="small">taaa</div>
-				<div class="small">baaa</div>	
+		 		<div class="small">
+		 			<a href="/">
+		 				<img src="http://www.asiaexplorers.com/malaysia/kedah/langkawi/pantaicenang/02.jpg" />
+		 			</a>
+		 		</div>
+				<div class="small">
+					<a href="/">
+						<img src="http://www.majoreventsinternational.com/community/images/cycling_companions.jpg" />
+					</a>
+				</div>
+				<div class="small">
+					<a href="/">
+						<img src="http://fffcpas.com/wp-content/uploads/2013/07/shutterstock_132746927.jpg" />
+					<a>
+					</div>
+				<div class="small">
+					<a href="/">
+						<img src="http://idahodems.org/wp-content/uploads/2014/04/debate.jpg" />
+					</a>	
+					</div>	
 			</div>
 		</div>
-		
-		<!-- below is the nav bar and second page -->
+		<%end%>
+		<!--The latestt posts section ends here-->
+		<!-- below is the nav bar -->
  		<nav id="navbar">
 			<ul>
 				<li> 
-		    		<a href="#"> Home </a>
+		    		<a href="/"> Home </a>
         		</li>
 				<li> 
-		    		<a href="/post"> Club </a>
+		    		<a href="/club"> Club </a>
         		</li>
 				<li> 
-		    		<a href="#"> Associations</a>
+		    		<a href="/association"> Associations</a>
         		</li>
 				<li> 
-		    		<a href="#"> Secretariat</a>
+		    		<a href="/secretariat"> Secretariat</a>
         		</li>
         		<li>
-        			<a href="#">Faculty</a>
+        			<a href="/faculty">Faculty</a>
         		</li>
      		</ul>
  		</nav>
-
+ 		<!--navigation bar ends here-->
 		<div class="main">
 			<div class="content">
  				<%= yield %>

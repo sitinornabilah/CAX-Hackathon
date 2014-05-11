@@ -1,73 +1,54 @@
-body
-{
-	background-image: url("BG.jpg")
+/*FULL POST CSS*/
+#big{
+	width:80%;
+	height:800px;
+	background-color: #ecf0f1;
+	margin:auto;
 }
 
-
-img
-{
-	width:400px;
-	height:auto;
-	margin :left;
+.header-post {
+	height:200px;
+	border:1px solid black;
+	background-image: url("http://www.kopodium.com/wp-content/uploads/2013/03/taekwondo_split.jpg");
 }
 
-.head
-{
-	background-color : 900000;
-	border : 0.5px solid white;
-	height : 70px;
-	width : auto;
+.smallposter{
+	width:40%;
+	height:450px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	/*border: 1px solid blue;*/
 }
 
-.head h4
-{
-	font-size : 30px;
-	font-family : Arial;
-	float : center;
-	padding : 20px;
-	color : #fff;
+.smalldescrip{
+	width:40%;
+	border-left: 2px solid #7f8c8d;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	height:450px;
+	float: left;
 }
 
-.middle
-{
-	height:615px;
-	width:100%;
-	border:1px solid #2c3e50;
-	display:inline-block;
-	background-color : transparent;
+.smallposter img {
+	width: 98%;
+	height: 100%;
 }
 
-.poster
-{
-	padding:5px;
-	height:100px;
-	width:auto;
-	float:left;
-	display:inline-block;
+.header-post  p {
+	padding: 10px;
+	margin-top: 300px;
+	font-family: 'Lato',sans-serif;
+	font-size: 20px;
+	text-align: center;
 }
 
-.description
-{
-	padding:55px;
-	height:230px;
-	width:auto;
-	float:right;
-	border-left:1px;
-	display:inline-block;
-	color : #fff;
-	text-align : center;
-}
-
-.quote
-{
-	background-color : E41D1D;
-	color : #fff;
-}
-
-.description h2
-{
-	font-family : Arial;
-	font-size : 30px;
-	background-color : E41D1D;
-	color : #fff;
+.header-post h1 {
+	color: #FFF;
+	font-family: 'Lato',sans-serif;
+	font-size: 60px;
+	text-align: center;	
+	padding: 30px;
+	text-shadow: 2px 3px 2px #474747;
 }
